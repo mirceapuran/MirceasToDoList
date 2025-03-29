@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+  background-color: #321454;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Zenbones Prose', sans-serif;
+}
+
+.title-card {
+  font-family: 'Zenbones Prose', sans-serif;
+  width: 90%;
+  padding: 5px;
+  display: flex;
+}
+
+.title-card-item {
+  flex: 1; 
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  background-color: #101010;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.todo-wrapper {
+  display: flex;
+  background-color: #6117b6;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.todo-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: #321454 2px solid;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-input-item {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.todo-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top: #321454 2px solid;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.todo-list {
+  background-color: #101010;
+  width: 90%;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.task-item {
+  display: flex;
+  padding: 10px;
+  background-color: #101010;
+  border-radius: 10px;
+  margin: 10px;
+  height: fit-content;
+}
+
+.task-box {
+  width: 80%;
+  text-align: left;
+}
+
+.task-deadline {
+  width: 10%;
+  text-align: right;
+  background-color: #321454;
+  border-radius: 5px;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+.task-buttons {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: 'Zenbones Mono Light', monospace; 
+  font-size: 1rem;
+  background-color: #321454;
+}
+
+input {
+  font-family: 'Zenbones Mono Light', monospace; 
+  font-size: 1.25rem;
+  background-color: #000000;
+  color: white;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 2px solid rgba(255, 255, 255, 0.512);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button {
+  font-family: 'Livesport Finder Latin', sans-serif; 
+  font-size: 1.25rem;
+  background-color: #321454;
+  color: white;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 2px solid rgba(255, 255, 255, 0.512);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #6117b6;
+}
+
+#add-task {
+  width: 100px;
+  height: 50px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+}
+
+img:hover {
+  background-color: #6117b6;
+}
+
+.task-date {
+  font-family: 'Zenbones Mono Light', monospace; 
+  font-size: 0.75em;
+  color: blue;
+  padding-top: 5px;
+  
+}
+
+.task-time {
+  font-family: 'Zenbones Mono Light', monospace; 
+  font-size: 0.75em;
+  color: lightblue;
+  padding-bottom: 5px;
+}
